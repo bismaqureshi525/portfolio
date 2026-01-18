@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="A modern feminine portfolio showcasing my skills and projects.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">Bisma<span>Qureshi</span>.</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Main Container for Scroll Snap -->
+    <main class="container">
+
+        <!-- Hero / Home Section -->
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <span class="subtitle">Hello, I'm</span>
+                <h1 class="title">Bisma Qureshi</h1>
+                <p class="description">A Creative Developer styled with elegance &amp; logic.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-decoration">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <!-- Placeholder for user image, utilizing a generated gradient or icon for now -->
+                        <div class="img-placeholder">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Design with purpose. Code with passion.</h3>
+                        <p>
+                            I specialize in building digital experiences that blend aesthetic beauty with functional
+                            precision.
+                            My approach to development is rooted in the belief that software should not only work
+                            flawlessly
+                            but also feel delightful to use.
+                        </p>
+                        <p>
+                            With a background in creative arts and computer science, I bring a unique perspective to
+                            every project,
+                            ensuring modern, responsive, and accessible web solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <div class="section-container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Structural foundation of the web.</p>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Styling and responsive design.</p>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <i class="fa-brands fa-php"></i>
+                        <h3>PHP</h3>
+                        <p>Server-side scripting and dynamic content.</p>
+                    </div>
+                    <!-- Skill Card 4 -->
+                    <div class="skill-card">
+                        <i class="fa-brands fa-laravel"></i>
+                        <h3>Laravel</h3>
+                        <p>Robust PHP framework for web apps.</p>
+                    </div>
+                    <!-- Skill Card 5 -->
+                    <div class="skill-card">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Strategic online presence and growth.</p>
+                    </div>
+                    <!-- Skill Card 6 -->
+                    <div class="skill-card">
+                        <i class="fa-solid fa-share-nodes"></i>
+                        <h3>Social Media</h3>
+                        <p>Engagement and brand management.</p>
+                    </div>
+                    <!-- Skill Card 7 -->
+                    <div class="skill-card">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <h3>WordPress</h3>
+                        <p>Custom theme and plugin development.</p>
+                    </div>
+                    <!-- Skill Card 8 -->
+                    <div class="skill-card">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Backend</h3>
+                        <p>Database management and API integration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-wrapper">
+                    <!-- Project 1 -->
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="img/project1.png" alt="SWP Agency" class="project-img">
+                        <div class="project-info">
+                            <h3>SWP Agency</h3>
+                            <p>The Performance Marketing Agency That Drives Real Growth.</p>
+                            <a href="https://swp.agency/" target="_blank" class="btn-link">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <img src="img/project2.png" alt="Umrati App" class="project-img">
+                        <div class="project-info">
+                            <h3>Umrati App</h3>
+                            <p>Learn how to perform Tawaf correctly with real-time instruction.</p>
+                            <a href="https://umratiapp.com/" target="_blank" class="btn-link">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <img src="img/project3.jpeg" alt="Bisma's Closets" class="project-img">
+                        <div class="project-info">
+                            <h3>Bisma's Closets</h3>
+                            <p>A Gateway to the whole new and stylish collections.</p>
+                            <a href="#" class="btn-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p>I am currently available for freelance work or full-time opportunities. Let's create
+                            something beautiful together.</p>
+                        <div class="contact-links">
+                            <a href="mailto:bismabintequreshi@gmail.com"><i class="fa-solid fa-envelope"></i>
+                                bismabintequreshi@gmail.com</a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="event.preventDefault()">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2026 Bisma Qureshi. Made with elegance.</p>
+            </footer>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
